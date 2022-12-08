@@ -80,13 +80,13 @@
                                                                 <input type="text" class="input-text form-control input-lg" name="billing_last_name"  id="billing_last_name" placeholder="" value="Doe"  autocomplete="family-name">
                                                             </span>
                                                             </p>
-                                                            <p class="form-row form-row-wide form-group" id="billing_company_field" data-priority="30">
+                                                            {{!-- <p class="form-row form-row-wide form-group" id="billing_company_field" data-priority="30">
                                                                 <label for="billing_company" class="control-label">Company name&nbsp;<span class="optional">(optional)</span></label>
                                                                 <span class="woocommerce-input-wrapper">
                                                                 <input type="text" class="input-text form-control input-lg" name="billing_company" id="billing_company" placeholder="" value=""  autocomplete="organization">
                                                             </span>
-                                                            </p>
-                                                            <p class="form-row form-row-wide address-field update_totals_on_change form-group single-country validate-required" id="billing_country_field" data-priority="40">
+                                                            </p> --}}
+                                                            {{!-- <p class="form-row form-row-wide address-field update_totals_on_change form-group single-country validate-required" id="billing_country_field" data-priority="40">
                                                                 <label
                                                                         for="billing_country" class="control-label">Country&nbsp;<abbr
                                                                         class="required"
@@ -295,8 +295,8 @@
                                                                                                                placeholder=""
                                                                                                                value="London"
                                                                                                                autocomplete="address-level2"></span>
-                                                            </p>
-                                                            <p class="form-row form-row-wide address-field form-group validate-required validate-state"
+                                                            </p> --}}
+                                                            {{!-- <p class="form-row form-row-wide address-field form-group validate-required validate-state"
                                                                id="billing_state_field" data-priority="80"
                                                                data-o_class="form-row form-row-wide address-field form-group validate-required validate-state">
                                                                 <label for="billing_state" class="control-label">District&nbsp;<abbr
@@ -360,8 +360,8 @@
                                                                     value="BD-64">Thakurgaon</option></select>
 
                                                         </span>
-                                                            </p>
-                                                            <p class="form-row form-row-wide address-field form-group validate-postcode"
+                                                            </p> --}}
+                                                            {{!-- <p class="form-row form-row-wide address-field form-group validate-postcode"
                                                                id="billing_postcode_field" data-priority="90"
                                                                data-o_class="form-row form-row-wide address-field form-group validate-postcode">
                                                                 <label for="billing_postcode" class="control-label">Postcode
@@ -373,7 +373,7 @@
                                                                    placeholder=""
                                                                    value=""
                                                                    autocomplete="postal-code"></span>
-                                                            </p>
+                                                            </p> --}}
                                                             <p class="form-row form-row-wide form-group validate-required validate-phone" id="billing_phone_field" data-priority="100">
                                                                 <label for="billing_phone" class="control-label">Phone&nbsp;<abbr class="required" title="required">*</abbr></label>
                                                                 <span class="woocommerce-input-wrapper"><input type="tel"
@@ -398,7 +398,7 @@
 
                                                 </div>
 
-                                                <div class="col-12">
+                                                {{!-- <div class="col-12">
                                                     <div class="woocommerce-shipping-fields">
                                                     </div>
                                                     <div class="woocommerce-additional-fields">
@@ -406,7 +406,7 @@
                                                         <div class="woocommerce-additional-fields__field-wrapper">
                                                             <p class="form-row notes" id="order_comments_field" data-priority=""><label for="order_comments" class="control-label">Order notes&nbsp;<span class="optional">(optional)</span></label><span class="woocommerce-input-wrapper"><textarea name="order_comments" class="input-text form-control input-lg" id="order_comments" placeholder="Notes about your order, e.g. special notes for delivery." rows="4" cols="5"></textarea></span></p>					</div>
                                                     </div>
-                                                </div>
+                                                </div> --}}
                                             </div>
                                         </div>
 
@@ -426,26 +426,26 @@
                                                             Beanie with Logo&nbsp;
                                                             <strong class="product-quantity">× 2</strong>													</td>
                                                         <td class="product-total">
-                                                            <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">৳&nbsp;</span>36.00</span>						</td>
+                                                            <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">Rs&nbsp;</span>36.00</span>						</td>
                                                     </tr>
                                                     <tr class="cart_item">
                                                         <td class="product-name">
                                                             Beanie&nbsp;
                                                             <strong class="product-quantity">× 1</strong>													</td>
                                                         <td class="product-total">
-                                                            <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">৳&nbsp;</span>18.00</span>						</td>
+                                                            <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">Rs&nbsp;</span>18.00</span>						</td>
                                                     </tr>
                                                     </tbody>
                                                     <tfoot>
 
                                                     <tr class="cart-subtotal">
                                                         <th>Subtotal</th>
-                                                        <td><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">৳&nbsp;</span>54.00</span></td>
+                                                        <td><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">Rs&nbsp;</span>54.00</span></td>
                                                     </tr>
 
                                                     <tr class="order-total">
                                                         <th>Total</th>
-                                                        <td><strong><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">৳&nbsp;</span>54.00</span></strong> </td>
+                                                        <td><strong><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">Rs&nbsp;</span>54.00</span></strong> </td>
                                                     </tr>
                                                     </tfoot>
                                                 </table>
