@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  {{>header}}
+
+</head>
+
+<body id="top-header">
+
+{{>navbar}}
+<!--====== Header End ======-->
+
+<section class="page-header">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 col-xl-8">
+          <div class="title-block">
+            <h1>Courses</h1>
+            {{!-- <ul class="header-bradcrumb justify-content-center">
+              <li><a href="/index">Home</a></li>
+              <li class="active" aria-current="page">Courses</li>
+            </ul> --}}
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+    <!--course section start-->
+    <section class="section-padding page" >
+        <div class="course-top-wrap mb-100">
+            <div class="container">
+                <div class="row align-items-center">
+                    {{!-- <div class="col-lg-8">
+                        <p>Showing 1-6 of 8 results</p>
+                    </div>
+     --}}
+                    <div class="col-lg-4">
+                        <div class="topbar-search">
+                            <form method="get" action="#">
+                                <input type="text"  placeholder="Search our courses" class="form-control">
+                                <label><i class="fa fa-search"></i></label>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row justify-content-center">
+                {{!-- {{#each mycourse}} --}}
+                <div class="col-xl-4 col-lg-6 col-md-6">
+                    <div class="course-grid course-style-4 bg-white mb-80">
+                        <div class="course-header">
+                            <div class="course-thumb">
+                                <img src="/images/course/Web Development.jpg" alt="" class="img-fluid">
+                            </div>
+                        </div>
+        
+                        <div class="course-content">
+                            <span class="course-price">Rs 450</span>
+    
+                           <div class="d-flex align-items-center">
+                                <div class="author me-3">
+                                    <img src="/images/course/course-2.jpg" alt="" class="img-fluid">
+                                    <a href="#">Josephin</a>
+                                </div>
+                           </div>
+                            
+                            <h3 class="course-title" id ="course_name"> <a href="/courses/Adobe Lightroom: Photo Editing Masterclass">Adobe Lightroom: Photo Editing Masterclass</a> </h3>
+                            <div class="course-meta">
+                                <span class="duration"><i class="far fa-user-alt"></i>6 hours</span>
+                                <span class="lessons"><i class="far fa-play-circle me-2"></i>8</span>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+                 {{!-- {{/each}} --}}
+
+            </div>
+        </div>
+        <!--course-->
+    </section>
+    <!--course section end-->
+
+
+
+<!-- Footer section start -->
+{{>footer}}
+
+  </body>
+  
+</html>
