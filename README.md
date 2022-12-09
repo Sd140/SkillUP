@@ -1,2 +1,2 @@
 # SkillUP
-E-Learning Platform for easy learning
+E-Learning Platform for easy learning abc 
